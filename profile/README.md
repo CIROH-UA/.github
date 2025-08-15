@@ -40,7 +40,7 @@ Essential modeling engines powering the NextGen Water Resources Modeling Framewo
 ### 📈 Model Evaluation and Visualization
 Easily assess and explore NextGen-based model outputs *(integrated into NGIAB-CloudInfra)*
 - **[ngiab-teehr](https://github.com/CIROH-UA/ngiab-teehr)** - Performance assessment tools
-- **[ngiab-tethys](https://github.com/CIROH-UA/ngiab-tethys)** - Data visualization
+- **[ngiab-tethys](https://github.com/CIROH-UA/ngiab-client)** - NGIAB and DataStream Visualization
 
 ### NWM BigQuery API
 REST API backed by National Water Model data, developed on Google Cloud Platform
