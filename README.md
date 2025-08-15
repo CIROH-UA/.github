@@ -19,9 +19,12 @@ Advancing hydrology through open-source tools, community collaboration, and cutt
 
 ### 🏆 NGIAB (NextGen In A Box)
 Containerized solution for running the NextGen Water Resources Modeling Framework locally
-- **[NGIAB-CloudInfra](https://github.com/CIROH-UA/NGIAB-CloudInfra)** - Cloud deployment infrastructure
-- **[NGIAB-DataPreprocess](https://github.com/CIROH-UA/NGIAB_data_preprocess)** - Data preparation tools
-- **[Documentation](https://docs.ciroh.org/docs/products/Community%20Hydrologic%20Modeling%20Framework/)**
+- **[NGIAB-CloudInfra](https://github.com/CIROH-UA/NGIAB-CloudInfra)** - Docker distribution for wide compatibility
+- **[NGIAB-HPCInfra](https://github.com/CIROH-UA/NGIAB-CloudInfra)** - Singularity distribution for HPC-optimized modeling
+- **[NGIAB Data Preprocess](https://github.com/CIROH-UA/NGIAB_data_preprocess)** - Data preparation tools
+- **[NGIAB Calibration](https://github.com/CIROH-UA/ngiab-cal)** - Calibration tools
+- **[NGIAB 101 Training](https://docs.ciroh.org/training-NGIAB-101/)** - A comprehensive guide to getting started
+- **[Documentation](https://docs.ciroh.org/docs/products/ngiab/)** - In-depth information on NGIAB and related tools
 
 ### 📊 NextGen Research DataStream
 Automated system for continuous hydrologic predictions
@@ -31,13 +34,13 @@ Automated system for continuous hydrologic predictions
 
 ### 💧 NextGen Framework Core Components
 Essential modeling engines powering the NextGen Water Resources Modeling Framework
-- **[ngen](https://github.com/CIROH-UA/ngen)** - NextGen Water Resources Modeling Framework Engine (fork from NOAA-OWP repo)
-- **[t-route](https://github.com/CIROH-UA/t-route)** - Tree-based hydrologic routing engine for river network flow (fork from NOAA-OWP repo)
+- **[ngen](https://github.com/CIROH-UA/ngen)** - NextGen Water Resources Modeling Framework Engine *(fork from NOAA-OWP repo)*
+- **[t-route](https://github.com/CIROH-UA/t-route)** - Tree-based hydrologic routing engine for river network flow *(fork from NOAA-OWP repo)*
 
-
-### 📈 Model Evaluation (TEEHR)
-Tools for Exploratory Evaluation in Hydrologic Research
+### 📈 Model Evaluation and Visualization
+Easily assess and explore NextGen-based model outputs *(integrated into NGIAB-CloudInfra)*
 - **[ngiab-teehr](https://github.com/CIROH-UA/ngiab-teehr)** - Performance assessment tools
+- **[ngiab-tethys](https://github.com/CIROH-UA/ngiab-tethys)** - Data visualization
 
 ### NWM BigQuery API
 REST API backed by National Water Model data, developed on Google Cloud Platform
