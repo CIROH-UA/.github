@@ -28,8 +28,10 @@ Containerized solution for running the NextGen Water Resources Modeling Framewor
 
 ### 📊 NextGen Research DataStream
 Automated system for continuous hydrologic predictions
+- **[forcingprocessor](https://github.com/CIROH-UA/forcingprocessor)** - Forcing Processor
+- **[datastreamcli](https://github.com/CIROH-UA/datastreamcli)** - DataStream CLI
 - **[ngen-datastream](https://github.com/CIROH-UA/ngen-datastream)** - Core datastream engine
-- Real-time processing for VPU-16 on AWS Cloud
+- Real-time processing for VPU-16 on AWS Cloud - https://nrds.ciroh.org/ , [datastream.ciroh.org](https://datastream.ciroh.org/index.html)
 - Community parameter integration capability (in-progress)
 
 ### 💧 NextGen Framework Core Components
