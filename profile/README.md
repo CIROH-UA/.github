@@ -17,7 +17,7 @@ Advancing hydrology through open-source tools, community collaboration, and cutt
 
 ## 🚀 Featured Projects
 
-### 🏆 NGIAB (NextGen In A Box)
+### 🏆 NextGen In A Box (NGIAB) - ngiab.ciroh.org
 Containerized solution for running the NextGen Water Resources Modeling Framework locally
 - **[NGIAB-CloudInfra](https://github.com/CIROH-UA/NGIAB-CloudInfra)** - Docker distribution for wide compatibility
 - **[NGIAB-HPCInfra](https://github.com/CIROH-UA/NGIAB-HPCInfra)** - Singularity distribution for HPC-optimized modeling
@@ -26,10 +26,12 @@ Containerized solution for running the NextGen Water Resources Modeling Framewor
 - **[NGIAB 101 Training](https://docs.ciroh.org/training-NGIAB-101/)** - A comprehensive guide to getting started
 - **[Documentation](https://docs.ciroh.org/docs/products/ngiab/)** - In-depth information on NGIAB and related tools
 
-### 📊 NextGen Research DataStream
+### 📊 NextGen Research DataStream (NRDS) 
 Automated system for continuous hydrologic predictions
+- **[forcingprocessor](https://github.com/CIROH-UA/forcingprocessor)** - Forcingprocessor converts National Water Model (NWM) forcing data into Next Generation National Water Model (NextGen) forcing data
 - **[ngen-datastream](https://github.com/CIROH-UA/ngen-datastream)** - Core datastream engine
-- Real-time processing for VPU-16 on AWS Cloud
+- **[datastreamcli](https://github.com/CIROH-UA/datastreamcli)** - DataStreamCLI is a stand alone tool that automates the complete workflow from preprocessing input data for NextGen to execution of the NextGen simulation through NextGen In a Box (NGIAB)
+- Real-time processing for all VPUs on AWS Cloud - datastream.ciroh.org
 - Community parameter integration capability (in-progress)
 
 ### 💧 NextGen Framework Core Components
@@ -37,6 +39,7 @@ Essential modeling engines powering the NextGen Water Resources Modeling Framewo
 - **[ngen](https://github.com/CIROH-UA/ngen)** - NextGen Water Resources Modeling Framework Engine *(fork from NOAA-OWP repo)* (ngiab branch integrated into NGIAB)
 - **[t-route](https://github.com/CIROH-UA/t-route)** - Tree-based hydrologic routing engine for river network flow *(fork from NOAA-OWP repo)* (ngiab branch integreated into NGIAB)
 - **([lstm](https://github.com/CIROH-UA/lstm)** - Basic Model Interface (BMI) for streamflow prediction using Long Short-Term Memory (LSTM) networks (main branch - integrated into NGIAB)
+- **[rust-lstm](https://github.com/CIROH-UA/rust-lstm)** - A Rust implementation of a BMI adapter for LSTM-based streamflow prediction
 
 ### 📈 Model Evaluation and Visualization
 Easily assess and explore NextGen-based model outputs *(integrated into NGIAB-CloudInfra)*
@@ -49,6 +52,10 @@ REST API backed by National Water Model data, developed on Google Cloud Platform
 
 ### CIROH-2i2c JupyterHub
 - **[awi-ciroh-image](https://github.com/CIROH-UA/awi-ciroh-image)** - CIROH JupyterHub Image repository
+
+### CIROH DocuHub and Portal
+- **[ciroh-ua_website](https://github.com/CIROH-UA/ciroh-ua_website)** - technical documentation of few of the CIROH's projects, services, policies, latest blogs and news.
+- **[ciroh-portal](https://github.com/CIROH-UA/ciroh-portal)** - CIROH portal for products, publications and courses
 
 ## Acknowledgments
 
