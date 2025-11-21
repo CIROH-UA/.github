@@ -29,7 +29,7 @@ Containerized solution for running the NextGen Water Resources Modeling Framewor
 ### 📊 NextGen Research DataStream (NRDS) 
 Automated system for continuous hydrologic predictions
 - **[forcingprocessor](https://github.com/CIROH-UA/forcingprocessor)** - Forcingprocessor converts National Water Model (NWM) forcing data into Next Generation National Water Model (NextGen) forcing data
-- **[ngen-datastream](https://github.com/CIROH-UA/ngen-datastream)** - Core datastream engine
+- **[ngen-datastream](https://github.com/CIROH-UA/ngen-datastream)** - Infrastructure and tooling for the NextGen Research DataStream (NRDS) - Datastream Orchestration on AWS
 - **[datastreamcli](https://github.com/CIROH-UA/datastreamcli)** - DataStreamCLI is a stand alone tool that automates the complete workflow from preprocessing input data for NextGen to execution of the NextGen simulation through NextGen In a Box (NGIAB)
 - Real-time processing for all VPUs on AWS Cloud - datastream.ciroh.org
 - Community parameter integration capability (in-progress)
