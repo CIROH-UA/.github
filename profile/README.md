@@ -17,28 +17,31 @@ Advancing hydrology through open-source tools, community collaboration, and cutt
 
 ## 🚀 Featured Projects
 
-### 🏆 NextGen In A Box (NGIAB) - ngiab.ciroh.org
+### 🏆 NextGen In A Box (NGIAB) Ecosystem - ngiab.ciroh.org
 Containerized solution for running the NextGen Water Resources Modeling Framework locally
 - **[NGIAB-CloudInfra](https://github.com/CIROH-UA/NGIAB-CloudInfra)** - Docker distribution for wide compatibility
 - **[NGIAB-HPCInfra](https://github.com/CIROH-UA/NGIAB-HPCInfra)** - Singularity distribution for HPC-optimized modeling
 - **[NGIAB Data Preprocess](https://github.com/CIROH-UA/NGIAB_data_preprocess)** - Data preparation tools
+- **[NGIAB-TEEHR](https://github.com/CIROH-UA/ngiab-teehr)** - NGIAB TEEHR integration
+- **[NGIAB-Client](https://github.com/CIROH-UA/ngiab-teehr)** - NGIAB Visualizer based on Tethys platform
 - **[NGIAB Calibration](https://github.com/CIROH-UA/ngiab-cal)** - Calibration tools
-- **[NGIAB 101 Training](https://docs.ciroh.org/training-NGIAB-101/)** - A comprehensive guide to getting started
+- **[NGIAB 101 Training](https://docs.ciroh.org/training-NGIAB-101/)** - A comprehensive guide to getting started with NGIAB Ecosystem
 - **[Documentation](https://docs.ciroh.org/docs/products/ngiab/)** - In-depth information on NGIAB and related tools
+- **[PyNGIAB](https://github.com/CIROH-UA/ciroh_pyngiab) - Community NextGen Hub on 2i2c JupyterHub
 
-### 📊 NextGen Research DataStream (NRDS) 
+### 📊 NextGen Research DataStream (NRDS)
 Automated system for continuous hydrologic predictions
 - **[forcingprocessor](https://github.com/CIROH-UA/forcingprocessor)** - Forcingprocessor converts National Water Model (NWM) forcing data into Next Generation National Water Model (NextGen) forcing data
 - **[ngen-datastream](https://github.com/CIROH-UA/ngen-datastream)** - Infrastructure and tooling for the NextGen Research DataStream (NRDS) - Datastream Orchestration on AWS
 - **[datastreamcli](https://github.com/CIROH-UA/datastreamcli)** - DataStreamCLI is a stand alone tool that automates the complete workflow from preprocessing input data for NextGen to execution of the NextGen simulation through NextGen In a Box (NGIAB)
-- Real-time processing for all VPUs on AWS Cloud - datastream.ciroh.org
+- Real-time processing for entire conus on CIROH AWS account - datastream.ciroh.org - README.html provides more details
 - Community parameter integration capability (in-progress)
 
 ### 💧 NextGen Framework Core Components
 Essential modeling engines powering the NextGen Water Resources Modeling Framework
 - **[ngen](https://github.com/CIROH-UA/ngen)** - NextGen Water Resources Modeling Framework Engine *(fork from NOAA-OWP repo)* (ngiab branch integrated into NGIAB)
 - **[t-route](https://github.com/CIROH-UA/t-route)** - Tree-based hydrologic routing engine for river network flow *(fork from NOAA-OWP repo)* (ngiab branch integreated into NGIAB)
-- **([lstm](https://github.com/CIROH-UA/lstm)** - Basic Model Interface (BMI) for streamflow prediction using Long Short-Term Memory (LSTM) networks (main branch - integrated into NGIAB)
+- **[lstm](https://github.com/CIROH-UA/lstm)** - Basic Model Interface (BMI) for streamflow prediction using Long Short-Term Memory (LSTM) networks (main branch - integrated into NGIAB)
 - **[rust-lstm](https://github.com/CIROH-UA/rust-lstm)** - A Rust implementation of a BMI adapter for LSTM-based streamflow prediction
 
 ### 📈 Model Evaluation and Visualization
@@ -46,9 +49,10 @@ Easily assess and explore NextGen-based model outputs *(integrated into NGIAB-Cl
 - **[ngiab-teehr](https://github.com/CIROH-UA/ngiab-teehr)** - Performance assessment tools
 - **[ngiab-tethys](https://github.com/CIROH-UA/ngiab-client)** - NGIAB and DataStream Visualization
 
-### NWM BigQuery API
-REST API backed by National Water Model data, developed on Google Cloud Platform
-- **[api-nwm-gcp](https://github.com/CIROH-UA/api-nwm-gcp)**
+### Data Access
+- **[api-nwm-gcp](https://github.com/CIROH-UA/api-nwm-gcp)** - NWM BigQuery API - REST API backed by National Water Model data, developed and deployed on Google Cloud Platform
+- **[nwmurl](https://github.com/CIROH-UA/nwmurl)** - It provides utility functions specifically designed to subset and generate National Water Model (NWM) data URLs
+- **[nwm_kerchunk](https://github.com/CIROH-UA/NWM_Kerchunk)** - It provides National Water Model (NWM) output, which is stored as .nc files, into JSON headers and upload them to an AWS S3 bucket.
 
 ### CIROH-2i2c JupyterHub
 - **[awi-ciroh-image](https://github.com/CIROH-UA/awi-ciroh-image)** - CIROH JupyterHub Image repository
