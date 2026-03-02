@@ -27,6 +27,7 @@ Containerized solution for running the NextGen Water Resources Modeling Framewor
 - **[NGIAB Calibration](https://github.com/CIROH-UA/ngiab-cal)** - Calibration tools
 - **[NGIAB 101 Training](https://docs.ciroh.org/training-NGIAB-101/)** - A comprehensive guide to getting started with NGIAB Ecosystem
 - **[Documentation on CIROH Hub](https://hub.ciroh.org/docs/products/ngiab/)** - In-depth information on NGIAB and related tools
+- **[Community Hydrofabric Patcher](https://github.com/CIROH-UA/community_hf_patcher)** - Source for patched hydrofabric files retrieved by Data Preprocess
 - **[PyNGIAB](https://github.com/CIROH-UA/ciroh_pyngiab)** - Community NextGen Hub on 2i2c JupyterHub
 - **[NGIAB Website](https://github.com/CIROH-UA/ngiab-website)** - NGIAB product portfoio website - ngiab.ciroh.org
 
