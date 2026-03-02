@@ -26,7 +26,7 @@ Containerized solution for running the NextGen Water Resources Modeling Framewor
 - **[NGIAB-Client](https://github.com/CIROH-UA/ngiab-client)** - NGIAB Visualizer based on Tethys platform
 - **[NGIAB Calibration](https://github.com/CIROH-UA/ngiab-cal)** - Calibration tools
 - **[NGIAB 101 Training](https://docs.ciroh.org/training-NGIAB-101/)** - A comprehensive guide to getting started with NGIAB Ecosystem
-- **[Documentation](https://docs.ciroh.org/docs/products/ngiab/)** - In-depth information on NGIAB and related tools
+- **[Documentation on CIROH Hub](https://hub.ciroh.org/docs/products/ngiab/)** - In-depth information on NGIAB and related tools
 - **[PyNGIAB](https://github.com/CIROH-UA/ciroh_pyngiab)** - Community NextGen Hub on 2i2c JupyterHub
 - **[NGIAB Website](https://github.com/CIROH-UA/ngiab-website)** - NGIAB product portfoio website - ngiab.ciroh.org
 
@@ -54,9 +54,9 @@ Essential modeling engines powering the NextGen Water Resources Modeling Framewo
 ### CIROH-2i2c JupyterHub
 - **[awi-ciroh-image](https://github.com/CIROH-UA/awi-ciroh-image)** - CIROH JupyterHub Image repository
 
-### CIROH DocuHub and Portal
-- **[ciroh-ua_website](https://github.com/CIROH-UA/ciroh-ua_website)** - technical documentation of few of the CIROH's projects, services, policies, latest blogs and news.
-- **[ciroh-portal](https://github.com/CIROH-UA/ciroh-portal)** - CIROH portal for products, publications and courses
+### CIROH Hub
+- **[CIROH Hub website](https://hub.ciroh.org)** - Central resource for CIROH research, documentation, services, and news 
+- **[ciroh_hub](https://github.com/CIROH-UA/ciroh_hub)** - Repository for updating and maintaining CIROH Hub
 
 ## Acknowledgments
 
