@@ -6,8 +6,7 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/CIROH-UA?style=social)](https://github.com/CIROH-UA)
 [![Website](https://img.shields.io/badge/Website-ciroh.org-blue)](https://ciroh.org)
-[![Documentation](https://img.shields.io/badge/Docs-docs.ciroh.org-green)](https://docs.ciroh.org)
-[![Portal](https://img.shields.io/badge/Portal-portal.ciroh.org-green)](https://portal.ciroh.org)
+[![Hub](https://img.shields.io/badge/Hub-hub.ciroh.org-green)](https://hub.ciroh.org)
 </div>
 
 ---
