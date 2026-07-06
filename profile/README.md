@@ -43,6 +43,7 @@ Automated system for continuous hydrologic predictions
 Essential modeling engines powering the NextGen Water Resources Modeling Framework
 - **[ngen](https://github.com/CIROH-UA/ngen)** - NextGen Water Resources Modeling Framework Engine *(fork from NOAA-OWP repo)* (ngiab branch integrated into NGIAB)
 - **[t-route](https://github.com/CIROH-UA/t-route)** - Tree-based hydrologic routing engine for river network flow *(fork from NOAA-OWP repo)* (ngiab branch integreated into NGIAB)
+- **[rs_route](https://github.com/CIROH-UA/rs_route)** - Rust-based Muskingum-Cunge channel routing; designed for similar functionality to t-route
 - **[lstm](https://github.com/CIROH-UA/lstm)** - Basic Model Interface (BMI) for streamflow prediction using Long Short-Term Memory (LSTM) networks (main branch - integrated into NGIAB)
 - **[rust-lstm](https://github.com/CIROH-UA/rust-lstm)** - A Rust implementation of a BMI adapter for LSTM-based streamflow prediction
 
