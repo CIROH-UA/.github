@@ -61,7 +61,7 @@ Essential modeling engines powering the NextGen Water Resources Modeling Framewo
 - **[ciroh_hub](https://github.com/CIROH-UA/ciroh_hub)** - Repository for updating and maintaining CIROH Hub
 
 ### CIROH RIVR
-= **[RIVR](https://github.com/CIROH-UA/RIVR)** - Public-focused mobile app for monitoring river flow and flood risk, powered by the NWM
+- **[RIVR](https://github.com/CIROH-UA/RIVR)** - Public-focused mobile app for monitoring river flow and flood risk, powered by the NWM
 
 ### Data Access
 - **[api-nwm-gcp](https://github.com/CIROH-UA/api-nwm-gcp)** - NWM BigQuery API - REST API backed by National Water Model data, developed and deployed on Google Cloud Platform
